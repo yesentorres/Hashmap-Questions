@@ -10,7 +10,7 @@ def intersection(list1, list2)
     shorter_array = list1
   end 
 
-  # Add each element from the smaller array to a hash table 
+  # add each element from the smaller array to a hash table 
   hash = {}
   shorter_array.each do |element|
     hash[element] = true

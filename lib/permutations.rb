@@ -1,7 +1,7 @@
 
 def permutations?(string1, string2)
 
-  # if strings are not same length, can assume they aern't permutations of one another
+  # if strings are not same length, we can assume they aern't permutations of one another
   if string1.length > string2.length || string2.length > string1.length
     return false
   end 
